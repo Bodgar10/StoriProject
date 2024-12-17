@@ -6,6 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		87FEFD892D111836007E7837 /* NetworkSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 87FEFD882D111836007E7837 /* NetworkSDK */; };
+		87FEFD8C2D111843007E7837 /* Common in Frameworks */ = {isa = PBXBuildFile; productRef = 87FEFD8B2D111843007E7837 /* Common */; };
+		87FEFD8F2D11184F007E7837 /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 87FEFD8E2D11184F007E7837 /* DesignSystem */; };
+		87FEFD922D11185C007E7837 /* Switchboard in Frameworks */ = {isa = PBXBuildFile; productRef = 87FEFD912D11185C007E7837 /* Switchboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		87FEFD542D1114DC007E7837 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,6 +72,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87FEFD8F2D11184F007E7837 /* DesignSystem in Frameworks */,
+				87FEFD922D11185C007E7837 /* Switchboard in Frameworks */,
+				87FEFD892D111836007E7837 /* NetworkSDK in Frameworks */,
+				87FEFD8C2D111843007E7837 /* Common in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +136,10 @@
 			);
 			name = StoriProject;
 			packageProductDependencies = (
+				87FEFD882D111836007E7837 /* NetworkSDK */,
+				87FEFD8B2D111843007E7837 /* Common */,
+				87FEFD8E2D11184F007E7837 /* DesignSystem */,
+				87FEFD912D11185C007E7837 /* Switchboard */,
 			);
 			productName = StoriProject;
 			productReference = 87FEFD3D2D1114DA007E7837 /* StoriProject.app */;
@@ -208,6 +223,12 @@
 			);
 			mainGroup = 87FEFD342D1114DA007E7837;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				87FEFD872D111836007E7837 /* XCLocalSwiftPackageReference "../SDK/NetworkSDK/NetworkSDK" */,
+				87FEFD8A2D111843007E7837 /* XCLocalSwiftPackageReference "../Modules/Common/Common" */,
+				87FEFD8D2D11184F007E7837 /* XCLocalSwiftPackageReference "../Modules/DesignSystem/DesignSystem" */,
+				87FEFD902D11185C007E7837 /* XCLocalSwiftPackageReference "../Modules/Switchboard/Switchboard" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 87FEFD3E2D1114DA007E7837 /* Products */;
 			projectDirPath = "";
@@ -569,6 +590,44 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		87FEFD872D111836007E7837 /* XCLocalSwiftPackageReference "../SDK/NetworkSDK/NetworkSDK" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../SDK/NetworkSDK/NetworkSDK;
+		};
+		87FEFD8A2D111843007E7837 /* XCLocalSwiftPackageReference "../Modules/Common/Common" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../Modules/Common/Common;
+		};
+		87FEFD8D2D11184F007E7837 /* XCLocalSwiftPackageReference "../Modules/DesignSystem/DesignSystem" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../Modules/DesignSystem/DesignSystem;
+		};
+		87FEFD902D11185C007E7837 /* XCLocalSwiftPackageReference "../Modules/Switchboard/Switchboard" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../Modules/Switchboard/Switchboard;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		87FEFD882D111836007E7837 /* NetworkSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NetworkSDK;
+		};
+		87FEFD8B2D111843007E7837 /* Common */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Common;
+		};
+		87FEFD8E2D11184F007E7837 /* DesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DesignSystem;
+		};
+		87FEFD912D11185C007E7837 /* Switchboard */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Switchboard;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 87FEFD352D1114DA007E7837 /* Project object */;
 }
