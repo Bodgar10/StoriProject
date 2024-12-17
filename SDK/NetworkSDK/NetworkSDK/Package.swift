@@ -14,10 +14,21 @@ let package = Package(
             name: "NetworkSDK",
             targets: ["NetworkSDK"]),
     ],
-    dependencies: [],
+    dependencies: [
+        .package(path: "../../../Modules/Common/Common"),
+        .package(path: "../../../Modules/DesignSystem/DesignSystem"),
+        .package(path: "../../../Modules/Switchboard/Switchboard"),
+    ],
     targets: [
         .target(
-            name: "NetworkSDK"),
+            name: "NetworkSDK",
+            dependencies:
+                [
+                    .product(name: "Common", package: "Common"),
+                    .product(name: "DesignSystem", package: "DesignSystem"),
+                    .product(name: "Switchboard", package: "Switchboard"),
+                ]
+        ),
         .testTarget(
             name: "NetworkSDKTests",
             dependencies: ["NetworkSDK"]),

@@ -17,7 +17,9 @@ let package = Package(
     dependencies: [],
     targets: [
         .target(
-            name: "DesignSystem"),
+            name: "DesignSystem",
+            resources: [.copy("Resources/Assets.xcassets")]
+        ),
         .testTarget(
             name: "DesignSystemTests",
             dependencies: ["DesignSystem"]),

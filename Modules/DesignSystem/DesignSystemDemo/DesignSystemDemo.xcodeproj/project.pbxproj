@@ -3,24 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0557F1DAFD61AF614A46A88C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4074451EACB5120C8DF858F8 /* Preview Assets.xcassets */; };
 		0D9A7F00C3D774841332E576 /* DesignSystemDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733F6DC4BEA8A354927989EB /* DesignSystemDemo.swift */; };
-		3836D4C53E2208FBAF63AE4A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F54D824D1E8BE0834A14E04 /* ContentView.swift */; };
+		87FEFD952D112375007E7837 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FEFD942D112375007E7837 /* DemoViewController.swift */; };
+		87FEFD9B2D112538007E7837 /* GuideStyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FEFD9A2D112538007E7837 /* GuideStyleViewController.swift */; };
+		87FEFD9D2D11257F007E7837 /* DemoColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FEFD9C2D11257F007E7837 /* DemoColorsViewController.swift */; };
+		87FEFDA12D1125A9007E7837 /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 87FEFDA02D1125A9007E7837 /* DesignSystem */; };
 		EF36D7BE37BE7E20F6343302 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B7B3729A05AF5A62BC7D692 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2B7B3729A05AF5A62BC7D692 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4074451EACB5120C8DF858F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6F54D824D1E8BE0834A14E04 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		733F6DC4BEA8A354927989EB /* DesignSystemDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystemDemo.swift; sourceTree = "<group>"; };
 		75A5B46226E10773404ABA5A /* DesignSystemDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DesignSystemDemo.entitlements; sourceTree = "<group>"; };
-		E28CC7C955985ACFB50ED5B8 /* DesignSystemDemo.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = DesignSystemDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87FEFD932D11219A007E7837 /* DesignSystemDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DesignSystemDemo-Info.plist"; sourceTree = "<group>"; };
+		87FEFD942D112375007E7837 /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		87FEFD9A2D112538007E7837 /* GuideStyleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideStyleViewController.swift; sourceTree = "<group>"; };
+		87FEFD9C2D11257F007E7837 /* DemoColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoColorsViewController.swift; sourceTree = "<group>"; };
+		E28CC7C955985ACFB50ED5B8 /* DesignSystemDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignSystemDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87FEFD9E2D1125A4007E7837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87FEFDA12D1125A9007E7837 /* DesignSystem in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		0BE071DB0EBFF93F7D096D72 /* Preview Content */ = {
@@ -42,21 +59,31 @@
 		34C351DE522FD6E9A1024C8C = {
 			isa = PBXGroup;
 			children = (
+				87FEFD932D11219A007E7837 /* DesignSystemDemo-Info.plist */,
 				E15A1B57EAAF9621C901AF1A /* DesignSystem */,
 				9FE6E0C0387FEE5327A69E1D /* Products */,
+				87FEFD9F2D1125A9007E7837 /* Frameworks */,
 			);
+			sourceTree = "<group>";
+		};
+		87FEFD9F2D1125A9007E7837 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		94944D03FCFD063FF7A86A89 /* DesignSystemDemo */ = {
 			isa = PBXGroup;
 			children = (
-				6F54D824D1E8BE0834A14E04 /* ContentView.swift */,
 				75A5B46226E10773404ABA5A /* DesignSystemDemo.entitlements */,
 				733F6DC4BEA8A354927989EB /* DesignSystemDemo.swift */,
 				0BE071DB0EBFF93F7D096D72 /* Preview Content */,
 				0EB85416910AF7AD3F3EC1F9 /* Resources */,
+				87FEFD942D112375007E7837 /* DemoViewController.swift */,
+				87FEFD9A2D112538007E7837 /* GuideStyleViewController.swift */,
+				87FEFD9C2D11257F007E7837 /* DemoColorsViewController.swift */,
 			);
-			name = DesignSystemDemo;
 			path = DesignSystemDemo;
 			sourceTree = "<group>";
 		};
@@ -87,6 +114,7 @@
 				CB1274151334F4EFD36DF8A8 /* Sources */,
 				491B74D124644B8B3CDAA50E /* Run Script */,
 				9C60472656C5AC3E76BF42CE /* Resources */,
+				87FEFD9E2D1125A4007E7837 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -105,8 +133,6 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = 070DFDBE6E3A2E0265BCDB80 /* Build configuration list for PBXProject "DesignSystemDemo" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -117,6 +143,10 @@
 				en,
 			);
 			mainGroup = 34C351DE522FD6E9A1024C8C;
+			packageReferences = (
+				87FEFD962D11239A007E7837 /* XCLocalSwiftPackageReference "../../Switchboard/Switchboard" */,
+				87FEFD982D1124FA007E7837 /* XCLocalSwiftPackageReference "../DesignSystem" */,
+			);
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -163,8 +193,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3836D4C53E2208FBAF63AE4A /* ContentView.swift in Sources */,
+				87FEFD9B2D112538007E7837 /* GuideStyleViewController.swift in Sources */,
 				0D9A7F00C3D774841332E576 /* DesignSystemDemo.swift in Sources */,
+				87FEFD952D112375007E7837 /* DemoViewController.swift in Sources */,
+				87FEFD9D2D11257F007E7837 /* DemoColorsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +208,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "DesignSystemDemo-Info.plist";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -252,6 +287,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "DesignSystemDemo-Info.plist";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -352,6 +390,25 @@
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		87FEFD962D11239A007E7837 /* XCLocalSwiftPackageReference "../../Switchboard/Switchboard" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Switchboard/Switchboard;
+		};
+		87FEFD982D1124FA007E7837 /* XCLocalSwiftPackageReference "../DesignSystem" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../DesignSystem;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		87FEFDA02D1125A9007E7837 /* DesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 87FEFD982D1124FA007E7837 /* XCLocalSwiftPackageReference "../DesignSystem" */;
+			productName = DesignSystem;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 595278E4D4EE04825B65F837 /* Project object */;
 }
