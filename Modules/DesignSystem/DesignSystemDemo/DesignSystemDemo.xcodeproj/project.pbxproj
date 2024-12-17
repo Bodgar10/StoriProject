@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0557F1DAFD61AF614A46A88C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4074451EACB5120C8DF858F8 /* Preview Assets.xcassets */; };
 		0D9A7F00C3D774841332E576 /* DesignSystemDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733F6DC4BEA8A354927989EB /* DesignSystemDemo.swift */; };
+		873DA0192D11EF10007FA745 /* DemoMovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873DA0182D11EF10007FA745 /* DemoMovieTableViewController.swift */; };
+		873DA01B2D11F48A007FA745 /* DemoComponentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873DA01A2D11F48A007FA745 /* DemoComponentsTableViewController.swift */; };
 		87FEFD952D112375007E7837 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FEFD942D112375007E7837 /* DemoViewController.swift */; };
 		87FEFD9B2D112538007E7837 /* GuideStyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FEFD9A2D112538007E7837 /* GuideStyleViewController.swift */; };
 		87FEFD9D2D11257F007E7837 /* DemoColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FEFD9C2D11257F007E7837 /* DemoColorsViewController.swift */; };
@@ -21,6 +23,8 @@
 		4074451EACB5120C8DF858F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		733F6DC4BEA8A354927989EB /* DesignSystemDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystemDemo.swift; sourceTree = "<group>"; };
 		75A5B46226E10773404ABA5A /* DesignSystemDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DesignSystemDemo.entitlements; sourceTree = "<group>"; };
+		873DA0182D11EF10007FA745 /* DemoMovieTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoMovieTableViewController.swift; sourceTree = "<group>"; };
+		873DA01A2D11F48A007FA745 /* DemoComponentsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoComponentsTableViewController.swift; sourceTree = "<group>"; };
 		87FEFD932D11219A007E7837 /* DesignSystemDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DesignSystemDemo-Info.plist"; sourceTree = "<group>"; };
 		87FEFD942D112375007E7837 /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
 		87FEFD9A2D112538007E7837 /* GuideStyleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideStyleViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +87,8 @@
 				87FEFD942D112375007E7837 /* DemoViewController.swift */,
 				87FEFD9A2D112538007E7837 /* GuideStyleViewController.swift */,
 				87FEFD9C2D11257F007E7837 /* DemoColorsViewController.swift */,
+				873DA0182D11EF10007FA745 /* DemoMovieTableViewController.swift */,
+				873DA01A2D11F48A007FA745 /* DemoComponentsTableViewController.swift */,
 			);
 			path = DesignSystemDemo;
 			sourceTree = "<group>";
@@ -193,7 +199,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				873DA0192D11EF10007FA745 /* DemoMovieTableViewController.swift in Sources */,
 				87FEFD9B2D112538007E7837 /* GuideStyleViewController.swift in Sources */,
+				873DA01B2D11F48A007FA745 /* DemoComponentsTableViewController.swift in Sources */,
 				0D9A7F00C3D774841332E576 /* DesignSystemDemo.swift in Sources */,
 				87FEFD952D112375007E7837 /* DemoViewController.swift in Sources */,
 				87FEFD9D2D11257F007E7837 /* DemoColorsViewController.swift in Sources */,

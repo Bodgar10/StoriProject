@@ -56,8 +56,8 @@ class DemoViewController: UIViewController {
     }
         
     @objc func showComponents() {
-        //let componentsViewController = ComponentListViewController()
-        //navigationController?.pushViewController(componentsViewController, animated: true)
+        let componentsViewController = DemoComponentsTableViewController()
+        navigationController?.pushViewController(componentsViewController, animated: true)
     }
         
     @objc func showStyleGuide() {
